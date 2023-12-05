@@ -12,7 +12,7 @@ function App() {
 
   return(
     <>
-      <Router basename="/MusicaLibre/">
+      <Router basename={"/MusicaLibre/"}>
         <Header />
         <main>
           <Routes>
