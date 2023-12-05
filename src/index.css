@@ -120,31 +120,51 @@ h1, h2 {
 
 .playing-range {
   -webkit-appearance: none;
-  -moz-appearance: none;
+  -moz-appearence: none;
   appearance: none;
   width: 80%;
   background-color: transparent;
 }
 
-.playing-range::-webkit-slider-thumb, .playing-range::-moz-range-thumb {
-      height: 15px;
-      width: 15px;
-      border-radius: 50%;
-      background: var(--secondary-color);
-      cursor: pointer;
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      appearance: none;
-      border: 1px solid white;
-    }
+.playing-range::-webkit-slider-thumb {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: var(--secondary-color);
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+  border: 1px solid white;
+  margin-top: -5px;
+}
 
-.playing-range::-webkit-slider-runnable-track, .playing-range::-moz-range-track {
+.playing-range::-moz-range-thumb {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: var(--secondary-color);
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid white;
+}
+
+.playing-range::-webkit-slider-runnable-track {
+  height: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: var(--secondary-color);
+}
+
+
+.playing-range::-moz-range-track {
   background-color: rgb(206, 205, 205);
   height: 5px;
   border-radius: 20px;
 }
 
-.playing-range::-webkit-slider-runnable-track, .playing-range::-webkit-progress-value {
+.playing-range::-moz-range-progress {
   width: 100%;
   cursor: pointer;
   height: 5px;

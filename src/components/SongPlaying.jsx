@@ -12,7 +12,7 @@ function SongPlaying() {
                 <img src="./assets/discover/Next.png" alt="" className="w-[30px] h-[30px] mx-[10px] cursor-pointer" />
               </div>
               <div className="flex justify-center">
-                <input type="range" name="" id="" className="playing-range" />
+                <input type="range" className="playing-range" />
               </div>
             </div>
           </div>
