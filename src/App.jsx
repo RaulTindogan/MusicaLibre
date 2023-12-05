@@ -12,7 +12,7 @@ function App() {
 
   return(
     <>
-      <Router basename="/MusicaLibre/">
+      <Router basename="">
         <Header />
         <main>
           <Routes>
