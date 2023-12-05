@@ -144,7 +144,7 @@ h1, h2 {
   border-radius: 20px;
 }
 
-.playing-range::-webkit-slider-runnable-track, .playing-range::-moz-range-progress {
+.playing-range::-webkit-slider-runnable-track, .playing-range::-webkit-progress-value {
   width: 100%;
   cursor: pointer;
   height: 5px;
