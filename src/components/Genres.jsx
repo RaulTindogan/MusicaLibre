@@ -7,7 +7,7 @@ function Genres() {
   const ArrowPrev = ({onClick})=>{
    return (
     <img
-      src = {"../assets/genres/circle-chevron-left-solid.svg"}
+      src = {"assets/genres/circle-chevron-left-solid.svg"}
       className={`arrow-btn arrow-left`}
       onClick={onClick}
     />
@@ -97,7 +97,7 @@ const genres = [
     },
     {
         genreTitle: "EDM",
-        genreImage: "assets/genres/alawanlker.jpg"
+        genreImage: "assets/genres/alanwalker.jpg"
     },
     {
         genreTitle: "RAP",
