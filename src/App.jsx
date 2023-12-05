@@ -12,12 +12,11 @@ function App() {
 
   return(
     <>
-      <Router basename={"/MusicaLibre"}>
+      <Router basename={"/MusicaLibre/"}>
         <Header />
         <main>
           <Routes>
             <Route path='/' element={<Home />} />
-            <Route path="/home" element={<Home />} />
             <Route path='/discover' element={<Discover />} />
             <Route path='/about' element={<About />} />
             <Route path='/contact' element={<ContactPage />} />
